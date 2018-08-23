@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: show
+      MYSQL_DATABASE: meu-primeiro-db
+    ports:
+      - 3600:3306
